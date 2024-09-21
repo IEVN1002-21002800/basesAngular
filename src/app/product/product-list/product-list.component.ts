@@ -7,36 +7,38 @@ import { Component } from '@angular/core';
 })
 export class ProductListComponent {
 
+  //*ngIf=true o false
+
   productos:any[]=[
     {
       "productoID": 1,
       "Modelo": "Sentra",
-      "Descripción": "4 puertas",
+      "Descripcion": "4 puertas",
       "Precio": 20000,
-      "Yaer": 2023,
+      "Year": 2023,
       "Marca": "NISSAN",
       "Color": "Azul",
-      "ImagenURL":""
+      "ImagenURL":"https://acroadtrip.blob.core.windows.net/catalogo-imagenes/xl/RT_V_0c7166c16ff74073b65851f7f0b360ed.jpg"
     },
     {
       "productoID": 2,
       "Modelo": "A4",
-      "Descripción": "4 puertas",
+      "Descripcion": "4 puertas",
       "Precio": 30000,
-      "Yaer": 2022,
+      "Year": 2022,
       "Marca": "AUDI",
       "Color": "Blanco",
-      "ImagenURL":""
+      "ImagenURL":"https://http2.mlstatic.com/D_NQ_NP_925534-MLM78669111815_082024-O.webp"
     },
     {
       "productoID": 3,
       "Modelo": "Rio",
-      "Descripción": "4 puertas",
+      "Descripcion": "4 puertas",
       "Precio": 15000,
-      "Yaer": 2020,
+      "Year": 2020,
       "Marca": "KIA",
       "Color": "Rojo",
-      "ImagenURL":""
+      "ImagenURL":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRAMbkiDOsworsSeCIGUe-qamMAr6XLWbezww&s"
     }
   ]
 }
